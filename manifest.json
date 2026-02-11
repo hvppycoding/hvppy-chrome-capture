@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Page Capture to Click",
+  "description": "Capture a stitched screenshot from the top of the page to the point you click",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Activate Page Capture"
+  }
+}
